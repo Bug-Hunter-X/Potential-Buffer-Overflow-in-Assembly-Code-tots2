@@ -1,0 +1,1 @@
+This repository demonstrates a potential buffer overflow vulnerability in a short assembly code snippet. The vulnerability arises from a lack of bounds checking before writing data to a memory location specified by a pointer.  The `bug.asm` file contains the vulnerable code. The solution, provided in `bugSolution.asm`, incorporates size checks to mitigate the vulnerability.
